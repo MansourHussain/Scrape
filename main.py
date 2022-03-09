@@ -7,16 +7,17 @@ import lxml
 
 page_num = 2
 
+# 1 lists
+district_Name = []
+property_size = []
+property_price = []
+links = []
+dates = []
+# beds = []
+# paths = []
 
 while page_num < 288:
-    # 1 lists
-    district_Name = []
-    property_size = []
-    property_price = []
-    links = []
-    dates = []
-    # beds = []
-    # paths = []
+    
 
     # 2 the link to the website
     # here I included the `page_num` in the link
